@@ -131,6 +131,16 @@
 		F702F30125EE5D2C008F8E80 /* NYMnemonic.m in Sources */ = {isa = PBXBuildFile; fileRef = F702F2FD25EE5D2C008F8E80 /* NYMnemonic.m */; };
 		F702F30225EE5D2C008F8E80 /* english.txt in Resources */ = {isa = PBXBuildFile; fileRef = F702F2FF25EE5D2C008F8E80 /* english.txt */; };
 		F702F30825EE5D47008F8E80 /* NCPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F702F30725EE5D47008F8E80 /* NCPopupViewController.swift */; };
+		F7039B2B2B84EFC3007351EB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F7039B2A2B84EFC3007351EB /* Realm */; };
+		F7039B2D2B84EFCB007351EB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F7039B2C2B84EFCB007351EB /* Realm */; };
+		F7039B2F2B84EFD2007351EB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F7039B2E2B84EFD2007351EB /* Realm */; };
+		F7039B312B84EFDB007351EB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F7039B302B84EFDB007351EB /* Realm */; };
+		F7039B332B84EFE2007351EB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F7039B322B84EFE2007351EB /* Realm */; };
+		F7039B352B84EFEA007351EB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F7039B342B84EFEA007351EB /* Realm */; };
+		F7039B372B84EFF3007351EB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F7039B362B84EFF3007351EB /* Realm */; };
+		F7039B392B84EFF3007351EB /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F7039B382B84EFF3007351EB /* RealmSwift */; };
+		F7039B3B2B84F001007351EB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F7039B3A2B84F001007351EB /* Realm */; };
+		F7039B3D2B84F001007351EB /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F7039B3C2B84F001007351EB /* RealmSwift */; };
 		F70460522499061800BB98A7 /* NotificationCenter+MainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70460512499061800BB98A7 /* NotificationCenter+MainThread.swift */; };
 		F70460532499095400BB98A7 /* NotificationCenter+MainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70460512499061800BB98A7 /* NotificationCenter+MainThread.swift */; };
 		F70460542499095400BB98A7 /* NotificationCenter+MainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70460512499061800BB98A7 /* NotificationCenter+MainThread.swift */; };
@@ -1523,6 +1533,7 @@
 				F314F1112A30C11200BC7FAB /* PreviewSnapshots in Frameworks */,
 				F710FC88277B7D3F00AA9FBF /* RealmSwift in Frameworks */,
 				F760DE0F2AE66EE60027D78A /* KeychainAccess in Frameworks */,
+				F7039B352B84EFEA007351EB /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1530,6 +1541,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7039B392B84EFF3007351EB /* RealmSwift in Frameworks */,
+				F7039B372B84EFF3007351EB /* Realm in Frameworks */,
 				F3C6D0972B0F9BA40078DD25 /* XLForm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1538,6 +1551,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7039B3D2B84F001007351EB /* RealmSwift in Frameworks */,
+				F7039B3B2B84F001007351EB /* Realm in Frameworks */,
 				F3131EDD2B038E4A0018DB28 /* XLForm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1567,6 +1582,7 @@
 				F7490E8929882CC8009DCE94 /* SwiftEntryKit in Frameworks */,
 				F7490E7229882BB4009DCE94 /* RealmSwift in Frameworks */,
 				F760DE0D2AE66EDF0027D78A /* KeychainAccess in Frameworks */,
+				F7039B332B84EFE2007351EB /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1574,6 +1590,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7039B2F2B84EFD2007351EB /* Realm in Frameworks */,
 				F711A4EF2AF932B900095DD8 /* SVGKitSwift in Frameworks */,
 				F710FC80277B7D2700AA9FBF /* RealmSwift in Frameworks */,
 				F74C863D2AEFBFD9009A1D4A /* LRUCache in Frameworks */,
@@ -1598,6 +1615,7 @@
 				F783034428B5142B00B84583 /* NextcloudKit in Frameworks */,
 				F7346E1328B0EF5B006CE2D2 /* SwiftUI.framework in Frameworks */,
 				F760DE052AE66EBE0027D78A /* KeychainAccess in Frameworks */,
+				F7039B2B2B84EFC3007351EB /* Realm in Frameworks */,
 				F7346E2928B0FFF2006CE2D2 /* RealmSwift in Frameworks */,
 				F7A560462AE15D3D00BE8FD6 /* Queuer in Frameworks */,
 				F783030D28B4C59A00B84583 /* SwiftEntryKit in Frameworks */,
@@ -1610,6 +1628,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7039B312B84EFDB007351EB /* Realm in Frameworks */,
 				F7A560442AE15D2900BE8FD6 /* Queuer in Frameworks */,
 				F760DE0B2AE66ED80027D78A /* KeychainAccess in Frameworks */,
 				F73ADD2426554FE20069EA0D /* SwiftEntryKit in Frameworks */,
@@ -1662,6 +1681,7 @@
 				F7A8D72428F1771B008BBE1C /* NextcloudKit in Frameworks */,
 				F7C9739228F17131002C43E2 /* Intents.framework in Frameworks */,
 				F760DE072AE66EC70027D78A /* KeychainAccess in Frameworks */,
+				F7039B2D2B84EFCB007351EB /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2811,6 +2831,7 @@
 				F72AD71028C24BBB006CB92D /* NextcloudKit */,
 				F314F1102A30C11200BC7FAB /* PreviewSnapshots */,
 				F760DE0E2AE66EE60027D78A /* KeychainAccess */,
+				F7039B342B84EFEA007351EB /* Realm */,
 			);
 			productName = "Notification Service Extension";
 			productReference = 2C33C47F23E2C475005F963B /* Notification Service Extension.appex */;
@@ -2832,6 +2853,8 @@
 			name = NextcloudUnitTests;
 			packageProductDependencies = (
 				F3C6D0962B0F9BA40078DD25 /* XLForm */,
+				F7039B362B84EFF3007351EB /* Realm */,
+				F7039B382B84EFF3007351EB /* RealmSwift */,
 			);
 			productName = NextcloudTests;
 			productReference = AF8ED1F92757821000B8DBC4 /* NextcloudUnitTests.xctest */;
@@ -2853,6 +2876,8 @@
 			name = NextcloudUITests;
 			packageProductDependencies = (
 				F3131EDC2B038E4A0018DB28 /* XLForm */,
+				F7039B3A2B84F001007351EB /* Realm */,
+				F7039B3C2B84F001007351EB /* RealmSwift */,
 			);
 			productName = NextcloudUITests;
 			productReference = C0046CDA2A17B98400D87C9D /* NextcloudUITests.xctest */;
@@ -2919,6 +2944,7 @@
 				F7490E8829882CC8009DCE94 /* SwiftEntryKit */,
 				F7490E8A29882CE4009DCE94 /* NextcloudKit */,
 				F760DE0C2AE66EDF0027D78A /* KeychainAccess */,
+				F7039B322B84EFE2007351EB /* Realm */,
 			);
 			productName = "File Provider Extension UI";
 			productReference = F70716E32987F81500E72C1D /* File Provider Extension UI.appex */;
@@ -2950,6 +2976,7 @@
 				F760DE082AE66ED00027D78A /* KeychainAccess */,
 				F74C863C2AEFBFD9009A1D4A /* LRUCache */,
 				F711A4EE2AF932B900095DD8 /* SVGKitSwift */,
+				F7039B2E2B84EFD2007351EB /* Realm */,
 			);
 			productName = "Share Ext";
 			productReference = F7CE8AFB1DC1F8D8009CAE48 /* Share.appex */;
@@ -2976,6 +3003,7 @@
 				F7A560452AE15D3D00BE8FD6 /* Queuer */,
 				F75379212AE2ADA100C0250E /* JGProgressHUD */,
 				F760DE042AE66EBE0027D78A /* KeychainAccess */,
+				F7039B2A2B84EFC3007351EB /* Realm */,
 			);
 			productName = DashboardWidgetExtension;
 			productReference = F7346E1028B0EF5B006CE2D2 /* Widget.appex */;
@@ -3001,6 +3029,7 @@
 				F7A560432AE15D2900BE8FD6 /* Queuer */,
 				F753791F2AE2AD9400C0250E /* JGProgressHUD */,
 				F760DE0A2AE66ED80027D78A /* KeychainAccess */,
+				F7039B302B84EFDB007351EB /* Realm */,
 			);
 			productName = "File Provider Extension";
 			productReference = F771E3D020E2392D00AFB62D /* File Provider Extension.appex */;
@@ -3078,6 +3107,7 @@
 				F7A8D72328F1771B008BBE1C /* NextcloudKit */,
 				F7A8D72728F17728008BBE1C /* RealmSwift */,
 				F760DE062AE66EC70027D78A /* KeychainAccess */,
+				F7039B2C2B84EFCB007351EB /* Realm */,
 			);
 			productName = WidgetDashboardIntentHandler;
 			productReference = F7C9739028F17131002C43E2 /* WidgetDashboardIntentHandler.appex */;
@@ -5463,6 +5493,56 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F74E771E277A2EF40013B958 /* XCRemoteSwiftPackageReference "XLForm" */;
 			productName = XLForm;
+		};
+		F7039B2A2B84EFC3007351EB /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F710FC78277B7CFF00AA9FBF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F7039B2C2B84EFCB007351EB /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F710FC78277B7CFF00AA9FBF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F7039B2E2B84EFD2007351EB /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F710FC78277B7CFF00AA9FBF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F7039B302B84EFDB007351EB /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F710FC78277B7CFF00AA9FBF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F7039B322B84EFE2007351EB /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F710FC78277B7CFF00AA9FBF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F7039B342B84EFEA007351EB /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F710FC78277B7CFF00AA9FBF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F7039B362B84EFF3007351EB /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F710FC78277B7CFF00AA9FBF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F7039B382B84EFF3007351EB /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F710FC78277B7CFF00AA9FBF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		F7039B3A2B84F001007351EB /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F710FC78277B7CFF00AA9FBF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F7039B3C2B84F001007351EB /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F710FC78277B7CFF00AA9FBF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 		F70821D729E59E6D001CA2D7 /* TagListView */ = {
 			isa = XCSwiftPackageProductDependency;
